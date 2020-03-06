@@ -1,0 +1,17 @@
+
+    <div class="example">
+<h1><font color="blue" size="45">InfosysSparsh</font></h1>
+<h3><font color="Red" size="30">Evaluated by Manager</font></h3>
+
+<table cellspacing="30">
+    <tr>
+        <th>Rank</th>
+        <th>Name of very talented people in Infosys</th>
+    </tr>
+    <tr *ngFor="let name of listComments">
+        <td >{{name.empID}}</td>
+        <td >{{name.name}}</td>
+    </tr>
+</table>
+    </div>
+
